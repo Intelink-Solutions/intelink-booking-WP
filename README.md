@@ -19,6 +19,20 @@ Requirements: WordPress 6.5+, PHP 8.1+ with OpenSSL and Fileinfo, MySQL/MariaDB 
 
 The four-step form uses the supplied layout: left progress sidebar, website branding, right content, horizontal service cards, search/category filters, calendar, information form, review, and bottom navigation. Container queries adapt it to both full-width and constrained theme layouts. There is no separate summary panel.
 
+## Screenshots
+
+The four booking steps of the customer-facing form:
+
+| Step 1 — Select Service(s) | Step 2 — Select Date & Time |
+|:---:|:---:|
+| ![Step 1: Select service(s)](docs/screenshots/step1-select-service.png) | ![Step 2: Select date and time](docs/screenshots/step2-select-date-time.png) |
+
+| Step 3 — Your Information | Step 4 — Review & Confirm |
+|:---:|:---:|
+| ![Step 3: Your information](docs/screenshots/step3-your-information.png) | ![Step 4: Review your appointment](docs/screenshots/step4-review-confirm.png) |
+
+## Services, staff, and availability
+
 Branding priority is booking logo override → WordPress custom logo → site icon → website name. Configure support phone, email, support hours, primary color, and accent color in Settings. Featured images are selected from the WordPress Media Library; services without an image use a neutral graphic.
 
 Shortcodes:
